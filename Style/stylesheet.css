@@ -426,13 +426,24 @@ button:hover{
 }
 
 #sectionJuguetes li h3, #sectionJuguetes li p,#sectionJuguetes li h4 {
-    color: rgb(71, 71, 71);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 #ultimasUnidades p {
-    margin-top: 0vh;
-    color: rgb(223, 69, 69)!important;
+    margin-top: 1vh;
+    color:white!important;
+    background-color:rgb(223, 69, 69) ;
     font-weight: bold;
     font-size: 11px;
+    margin-right: 6vw;
+    margin-left: 6vw;
+}
+
+#precio {
+    font-size: 3vh;
+}
+
+ section p#descripcion{
+    color: rgb(71, 71, 71);
 }
