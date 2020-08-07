@@ -55,7 +55,7 @@ header #logoNavegacion nav a{
 
         }
 
- #imagenHeaderJuguetes, #imagenHeaderFarmacia, #imagenHeader {
+ #imagenHeaderJuguetes, #imagenHeaderFarmacia, #imagenHeader, #imagenHeaderContacto{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
@@ -84,10 +84,10 @@ header #logoNavegacion nav a{
     height: 72vh;
  }
  #imagenHeaderContacto{
-    background: url(../Imagenes/Untitled-2.jpg);
+    background: url(../Imagenes/fotocontato.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 20vh;
+    height: 72vh;
  } 
 
 header #tituloImagen h2{
@@ -217,7 +217,7 @@ footer img#imagenC{
 
 #footerTexto{
     display: flex;
-    margin-right: 7vw;
+    margin-right: 6vw;
 }
 
 #footerTexto p{
@@ -255,7 +255,7 @@ footer p, a{
 
 section#formulario {
     width: 70vw;
-    margin-left: 14vw; 
+    margin-left: 15vw; 
    background-color:rgba(192, 192, 192, 0.233);
    margin-bottom: 10vh;
    margin-top: 10vh;
@@ -269,7 +269,7 @@ section#formulario {
 
 section#formulario h3{
 text-align: center;
-color: rgb(0, 0, 0);
+color: rgb(68, 68, 68);
 font-size: 5vh;
 font-weight: bold;
 text-shadow: 2px 2px rgb(255, 255, 255);
