@@ -410,6 +410,12 @@ button:hover{
     box-shadow: 0vw 0vw 1vw 0vw rgb(219, 218, 218);
 }
 
+#sectionJuguetes li:hover {
+    box-shadow: 0vw 0vw 2vw 0vw rgb(151, 151, 151);
+
+}
+
+
 #sectionJuguetes h3 {
     font-size: 2.5vh;
     font-weight: bold;
@@ -443,8 +449,8 @@ button:hover{
 #precio {
     font-size: 3vh;
     margin-top: 1vh;
-}
+}  
 
  section p#descripcion{
-    color: rgb(66, 66, 66);
+    color: rgb(77, 77, 77);
 }
