@@ -32,11 +32,11 @@
             <li v-for="juguete in listaDeJuguetes" class="productos">
                   <img v-bind:src="juguete.imagen">
                   <h3>{{juguete.nombre}}</h3>
+                  <div id="ultimasUnidades">
+                    <p v-if="juguete.stock <= 5" >Últimas unidades</p>
+                 </div>
                   <p>{{juguete.descripcion}}</p>
                   <h4>${{juguete.precio}}</h4>
-                  <div id="ultimasUnidades">
-                     <p v-if="juguete.stock <= 5">Últimas unidades</p>
-                  </div>
             </li>
         </ul>
      </section>

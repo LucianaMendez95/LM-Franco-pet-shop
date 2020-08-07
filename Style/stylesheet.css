@@ -386,21 +386,22 @@ button:hover{
 /*juguetes*/
 
 #sectionJuguetes{
-    width: 85vw;
-    margin-left: 7vw;
+    width: 90vw;
+    margin-left: 1vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
     padding-top: 10vh;
     padding-bottom: 5vh;
+    padding-left: 3vw;
 }
 
 #sectionJuguetes li {
     display: inline-block;
-    width: 30vw;
-    height: 85vh;
+    width: 23%;
+    height: 65vh;
     margin-bottom: 5vw;
-    margin-left: 3vw;
-    margin-right: 3vw;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
     padding: 20px;
     overflow: hidden;
     background-color: white;
@@ -409,9 +410,19 @@ button:hover{
     box-shadow: 0vw 0vw 1vw 0vw rgb(219, 218, 218);
 }
 
+#sectionJuguetes h3 {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 0.5vh;
+}
+
+#sectionJuguetes p {
+    font-size: 2vh;
+}
+
 #app img {
-    width: 20vw;
-    margin-left: 6vw;
+    width: 14vw;
+    margin-left: 3vw;
 }
 
 #sectionJuguetes li h3, #sectionJuguetes li p,#sectionJuguetes li h4 {
@@ -420,7 +431,8 @@ button:hover{
 }
 
 #ultimasUnidades p {
+    margin-top: 0vh;
     color: rgb(223, 69, 69)!important;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 11px;
 }

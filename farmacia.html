@@ -34,11 +34,11 @@
                <li v-for="medicamento in listaDeMedicamentos" class="productos">
                      <img v-bind:src="medicamento.imagen">
                      <h3>{{medicamento.nombre}}</h3>
+                     <div id="ultimasUnidades">
+                        <p v-if="medicamento.stock <= 5">Últimas unidades</p>
+                    </div>
                      <p>{{medicamento.descripcion}}</p>
                      <h4>${{medicamento.precio}}</h4>
-                     <div id="ultimasUnidades">
-                         <p v-if="medicamento.stock <= 5">Últimas unidades</p>
-                     </div>
                 </li>
            </ul>
         </section>
